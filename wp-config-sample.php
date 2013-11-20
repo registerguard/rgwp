@@ -1,12 +1,5 @@
 <?php
 
-/**
- * Bueller? ... Bueller? ... Bueller?
- *
- * @see https://github.com/mhulse/bueller
- * @version v1.0.1
- */
-
 define('DB_NAME', 'database_name_here');
 define('DB_USER', 'username_here');
 define('DB_PASSWORD', 'password_here');
@@ -76,8 +69,9 @@ define('WP_DEBUG_DISPLAY', FALSE);
 
 //----------------------------------------------------------------------
 
-//define('WP_DEFAULT_THEME', '');
 //define('DISALLOW_FILE_EDIT', TRUE);
+//define('WP_MEMORY_LIMIT', '64M');
+//define('WP_DEFAULT_THEME', '');
 
 //----------------------------------------------------------------------
 
