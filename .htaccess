@@ -1,4 +1,10 @@
 # BEGIN WordPress
+
+<files wp-config.php>
+	order allow,deny
+	deny from all
+</files>
+
 RewriteEngine On
 RewriteBase /
 RewriteCond %{REQUEST_FILENAME} -f [OR]
@@ -7,4 +13,5 @@ RewriteRule . - [L]
 RewriteRule ^([_0-9a-zA-Z-]+/)?(wp-.*) /wp/$2 [L]
 RewriteRule ^([_0-9a-zA-Z-]+/)?(.*\.php)$ /wp/$2 [L]
 RewriteRule . index.php [L]
+
 # END WordPress
